@@ -22,8 +22,7 @@ app.get('/movies', (req, res) => {
   res.json(movies)
 })
 
-//muss unten
-
+//muss unten sein
 app.listen(1000, () => {
   console.log(`watching Port 1000`)
 })
